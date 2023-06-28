@@ -36,5 +36,6 @@ public class Scene1Controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         Choicebuah.getItems().addAll("Jeruk","Semangka","Apel");
+        System.out.println("mwehehehehe");
     }
 }
