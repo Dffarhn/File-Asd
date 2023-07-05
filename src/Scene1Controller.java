@@ -8,6 +8,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 public class Scene1Controller implements Initializable {
 
+    
+
     @FXML
     private Label Showchoose,Showwarnadd;
 
@@ -20,6 +22,7 @@ public class Scene1Controller implements Initializable {
     @FXML
     private void SHOWGO(ActionEvent event) {
         Showchoose.setText("Anda memesan buah : "+ Choicebuah.getValue().toString());
+        System.out.println("haahhaha");
         
     }
 
